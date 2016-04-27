@@ -9,9 +9,9 @@
 
 using namespace std;
 
-int extraction_method (int key);
-int quadratic_probe (int *& Hashtable, int key, int Max, int input);
-void write_out_table(int *& Hashtable, int Max);
+int extraction_method (int key);                                        //declares the function written below
+int quadratic_probe (int *& Hashtable, int key, int Max, int input);        //declares the function written below
+void write_out_table(int *& Hashtable, int Max);                        //declares the function written below
 
 int main()
 {
